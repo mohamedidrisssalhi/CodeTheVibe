@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with theme toggle -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ProductVibe</h1>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="main">
+        <div class="container">
+            <!-- Hero section -->
+            <section class="hero-section">
+                <div class="hero-text">
+                    <h1 class="hero-title">TRENDING<br>PRODUCTS</h1>
+                </div>
+            </section>
+
+            <!-- Product gallery -->
+            <section class="gallery">
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop&crop=center" alt="Yeezy Boost 350 V2" loading="lazy">
+                        <div class="card-overlay">
+                            <button class="btn-primary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">YEEZY BOOST 350 V2</h3>
+                        <p class="card-brand">ADIDAS | BLACK, RED</p>
+                        <div class="card-price">
+                            <span class="price-current">$220</span>
+                            <span class="price-original">$280</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop&crop=center" alt="Air Jordan XXXII Low" loading="lazy">
+                        <div class="card-overlay">
+                            <button class="btn-primary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">AIR JORDAN XXXII LOW</h3>
+                        <p class="card-brand">NIKE | BLACK & RED</p>
+                        <div class="card-price">
+                            <span class="price-current">$160</span>
+                            <span class="price-original">$200</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=300&fit=crop&crop=center" alt="Hyperdunk 2017" loading="lazy">
+                        <div class="card-overlay">
+                            <button class="btn-primary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">HYPERDUNK 2017</h3>
+                        <p class="card-brand">NIKE | DARK GREY</p>
+                        <div class="card-price">
+                            <span class="price-current">$130</span>
+                            <span class="price-original">$170</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ProductVibe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
